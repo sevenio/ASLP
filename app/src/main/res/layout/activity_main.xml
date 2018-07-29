@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/flash_cards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/flash_cards"
+        app:layout_constraintBottom_toTopOf="@+id/choose_articulation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/choose_articulation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_articualtion"
+        app:layout_constraintBottom_toTopOf="@+id/articulation_recyclerview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flash_cards" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/articulation_recyclerview"
+        android:layout_width="368dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/medial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choose_articulation" />
+
+    <Button
+        android:id="@+id/load_images"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/load_cards"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/medial" />
+
+    <Button
+        android:id="@+id/initial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/initial"
+        app:layout_constraintBottom_toBottomOf="@+id/medial"
+        app:layout_constraintEnd_toStartOf="@+id/medial"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/medial" />
+
+    <Button
+        android:id="@+id/medial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/medial"
+        app:layout_constraintBottom_toTopOf="@+id/load_images"
+        app:layout_constraintEnd_toStartOf="@+id/final_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/initial"
+        app:layout_constraintTop_toBottomOf="@+id/articulation_recyclerview" />
+
+    <Button
+        android:id="@+id/final_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/final_string"
+        app:layout_constraintBottom_toBottomOf="@+id/medial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/medial"
+        app:layout_constraintTop_toTopOf="@+id/medial" />
+</android.support.constraint.ConstraintLayout>

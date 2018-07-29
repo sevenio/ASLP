@@ -1,0 +1,842 @@
+<resources>
+    <string name="app_name">ASLP App</string>
+
+    //title
+
+    <string name="అ">అ</string>
+
+    //initial
+
+    <string name="అరటి_పండు">అరటి పండు</string>
+    <string name="అమ్మ">అమ్మ</string>
+    <string name="అగ్గిపుల్ల">అగ్గిపుల్ల</string>
+    <string name="అగ్ని">అగ్ని</string>
+    <string name="అల">అల</string>
+    <string name="అడుగులు">అడుగులు</string>
+    <string name="అంగడి">అంగడి</string>
+    <string name="అద్దం">అద్దం</string>
+    <string name="అన్నం">అన్నం</string>
+
+    //title
+
+    <string name="ఆ">ఆ</string>
+
+    //initial
+
+    <string name="ఆవు">ఆవు</string>
+    <string name="ఆకు">ఆకు</string>
+    <string name="ఆట">ఆట</string>
+
+    //title
+
+    <string name="ఇ">ఇ</string>
+
+    //initial
+
+    <string name="ఇల్లు">ఇల్లు</string>
+    <string name="ఇటుక">ఇటుక</string>
+    <string name="ఇసుక">ఇసుక</string>
+    <string name="ఇత్తడి_దీపాలు">ఇత్తడి దీపాలు</string>
+    <string name="ఇనుము">ఇనుము</string>
+
+    //title
+
+    <string name="ఈ">ఈ</string>
+
+    //initial
+
+    <string name="ఈక">ఈక</string>
+    <string name="ఈగ">ఈగ</string>
+    <string name="ఈతకాయ">ఈతకాయ</string>
+    <string name="ఈత">ఈత</string>
+
+    //title
+
+    <string name="ఉ">ఉ</string>
+
+    //initial
+
+    <string name="ఉడుత">ఉడుత</string>
+    <string name="ఉంగరం">ఉంగరం</string>
+    <string name="ఉల్లిగడ్డ">ఉల్లిగడ్డ</string>
+
+    //title
+
+    <string name="ఊ">ఊ</string>
+
+    //initial
+
+    <string name="ఊయల">ఊయల</string>
+    <string name="ఊరు">ఊరు</string>
+    <string name="ఊతప్పం">ఊతప్పం</string>
+
+    //title
+
+    <string name="క">క</string>
+
+    //initial
+
+    <string name="కమలం">కమలం</string>
+    <string name="కుక్క">కుక్క</string>
+    <string name="కుర్చి">కుర్చి</string>
+    <string name="కారు">కారు</string>
+    <string name="కప్పు">కప్పు</string>
+    <string name="కుండ">కుండ</string>
+    <string name="కొంగ">కొంగ</string>
+    <string name="కన్ను">కన్ను</string>
+    <string name="కత్తి">కత్తి</string>
+    <string name="కత్తెర">కత్తెర</string>
+    <string name="కాకరకాయ">కాకరకాయ</string>
+
+    //medial
+
+    <string name="చిక్కుడు_కాయ">చిక్కుడు కాయ</string>
+    <string name="చక్కెర">చక్కెర</string>
+    <string name="తక్కెడ">తక్కెడ</string>
+    <string name="వక్కలు">వక్కలు</string>
+    <string name="వంకాయ">వంకాయ</string>
+
+    //final
+
+    <string name="కిటికి">కిటికి</string>
+    <string name="కాటుక">కాటుక</string>
+    <string name="నక్క">నక్క</string>
+    <string name="చాకు">చాకు</string>
+    <string name="ఎలుక">ఎలుక</string>
+    <string name="పలక">పలక</string>
+    <string name="కాకి">కాకి</string>
+    <string name="జింక">జింక</string>
+    <string name="చొక్క">చొక్క</string>
+    <string name="పార్కు">పార్కు</string>
+    <string name="చిలుక">చిలుక</string>
+
+    //title
+
+    <string name="ఖ">ఖ</string>
+
+    //initial
+
+    <string name="ఖడ్గం">ఖడ్గం</string>
+    <string name="ఖర్జూరము">ఖర్జూరము</string>
+
+    //medial
+
+    <string name="ముఖము">ముఖము</string>
+    <string name="శంఖం">శంఖం</string>
+
+    //final
+
+    <string name="రాఖీ">రాఖీ</string>
+
+    //title
+
+    <string name="గ">గ</string>
+
+    //initial
+
+    <string name="గుర్రము">గుర్రము</string>
+    <string name="గడప">గడప</string>
+    <string name="గాడిద">గాడిద</string>
+    <string name="గంప">గంప</string>
+    <string name="గాజులు">గాజులు</string>
+    <string name="గోడ">గోడ</string>
+    <string name="గవ్వలు">గవ్వలు</string>
+    <string name="గడియారము">గడియారము</string>
+    <string name="గేటు">గేటు</string>
+    <string name="గుడి">గుడి</string>
+    <string name="గొలుసు">గొలుసు</string>
+
+    //medial
+
+    <string name="బంగారం">బంగారం</string>
+    <string name="రేగిపళ్లు">రేగిపళ్లు</string>
+    <string name="కంగారూ">కంగారూ</string>
+    <string name="పెంగ్విన్">పెంగ్విన్</string>
+    <string name="నగలు">నగలు</string>
+    <string name="పుట్టగొడుగు">పుట్టగొడుగు</string>
+    <string name="మినుగురుపురుగు">మినుగురుపురుగు</string>
+
+
+    //final
+
+    <string name="గొడుగు">గొడుగు</string>
+    <string name="పాముపడగ">పాముపడగ</string>
+    <string name="ముగ్గు">ముగ్గు</string>
+    <string name="ఏనుగు">ఏనుగు</string>
+    <string name="బుడగ">బుడగ</string>
+    <string name="పెరుగు">పెరుగు</string>
+    <string name="పిడుగు">పిడుగు</string>
+
+
+    //title
+
+    <string name="ఘ">ఘ</string>
+
+    //initial
+
+    <string name="ఘంట">ఘంట</string>
+
+
+    //medial
+
+    //final
+
+    //title
+
+    <string name="చ">చ</string>
+
+    //initial
+
+    <string name="చాట">చాట</string>
+    <string name="చాక్లెట్">చాక్లెట్</string>
+    <string name="చీపురు">చీపురు</string>
+    <string name="చీర">చీర</string>
+    <string name="చెట్టు">చెట్టు</string>
+    <string name="చామంతి">చామంతి</string>
+    <string name="చక్రము">చక్రము</string>
+    <string name="చేప">చేప</string>
+    <string name="చాప">చాప</string>
+    <string name="చెవి">చెవి</string>
+
+
+    //medial
+
+    <string name="పిచ్చుక">పిచ్చుక</string>
+    <string name="పచ్చడి">పచ్చడి</string>
+    <string name="టీచరు">టీచరు</string>
+    <string name="నిచ్చెన">నిచ్చెన</string>
+    <string name="మంచము">మంచము</string>
+
+
+    //final
+
+    <string name="చెంచా">చెంచా</string>
+    <string name="చర్చ్">చర్చ్</string>
+    <string name="సంచి">సంచి</string>
+    <string name="మంచు">మంచు</string>
+
+    //title
+
+    <string name="ఛ">ఛ</string>
+
+    //initial
+
+    <string name="ఛాతి">ఛాతి</string>
+
+
+    //medial
+
+    <string name="పింఛము">పింఛము</string>
+
+
+    //final
+
+    //title
+
+    <string name="జ">జ</string>
+
+    //initial
+    <string name="జడ">జడ</string>
+    <string name="జామకాయ">జామకాయ</string>
+    <string name="జపమాల">జపమాల</string>
+    <string name="జలము">జలము</string>
+    <string name="జిలకర్ర">జిలకర్ర</string>
+    <string name="జెండా">జెండా</string>
+    <string name="జీపు">జీపు</string>
+    <string name="జల్లెడ">జల్లెడ</string>
+    <string name="జోకర్">జోకర్</string>
+    <string name="జున్ను">జున్ను</string>
+    <string name="జిప్">జిప్</string>
+
+    //medial
+
+    <string name="పంజరం">పంజరం</string>
+    <string name="గజ్జెలు">గజ్జెలు</string>
+
+    //final
+
+    <string name="కోడిపుంజు">కోడిపుంజు</string>
+    <string name="రాజు">రాజు</string>
+
+
+    //title
+
+    <string name="ఝ">ఝ</string>
+
+    //initial
+
+    <string name="ఝాన్సీ_రాణి">ఝాన్సీ రాణి</string>
+
+
+    //medial
+
+    //final
+
+    //title
+
+    <string name="ట">ట</string>
+
+    //initial
+
+    <string name="టీ.వి">టీ.వి</string>
+    <string name="టార్చ్">టార్చ్</string>
+    <string name="ట్రాక్టరు">ట్రాక్టరు</string>
+    <string name="టేపు">టేపు</string>
+
+
+    //medial
+
+    <string name="బాటిల్">బాటిల్</string>
+    <string name="అటుకులు">అటుకులు</string>
+    <string name="కిరీటం">కిరీటం</string>
+    <string name="బిస్కెట్లు">బిస్కెట్లు</string>
+
+
+    //final
+
+    <string name="టమాట">టమాట</string>
+    <string name="ప్లేటు">ప్లేటు</string>
+    <string name="జుట్టు">జుట్టు</string>
+    <string name="బెల్ట్">బెల్ట్</string>
+    <string name="పొట్ట">పొట్ట</string>
+    <string name="పెట్టె">పెట్టె</string>
+    <string name="బూట్లు">బూట్లు</string>
+    <string name="బొట్టు">బొట్టు</string>
+
+
+    //title
+
+    <string name="ఠ">ఠ</string>
+
+    //initial
+
+    //medial
+
+    <string name="కంఠం">కంఠం</string>
+    <string name="బఠాని">బఠాని</string>
+
+    //final
+
+    //title
+
+    <string name="డ">డ</string>
+
+    //initial
+
+    <string name="డబ్బులు">డబ్బులు</string>
+    <string name="డప్పు">డప్పు</string>
+    <string name="గోడ_ఢ">గోడ</string>
+    <string name="డోలు">డోలు</string>
+    <string name="డబ్బా">డబ్బా</string>
+
+
+    //medial
+
+    <string name="గడ్డం">గడ్డం</string>
+    <string name="రేడియో">రేడియో</string>
+    <string name="కడియం">కడియం</string>
+    <string name="పడవ">పడవ</string>
+    <string name="గాడిద_ఢ">గాడిద</string>
+    <string name="అడవి">అడవి</string>
+
+    //final
+
+    <string name="చంద్రుడు">చంద్రుడు</string>
+    <string name="గుడ్డు">గుడ్డు</string>
+    <string name="బోర్డు">బోర్డు</string>
+    <string name="సోడా">సోడా</string>
+    <string name="బ్లేడు">బ్లేడు</string>
+    <string name="చామగడ్డ">చామగడ్డ</string>
+    <string name="దండ">దండ</string>
+    <string name="టెడ్డీ">టెడ్డీ</string>
+    <string name="రోడ్డు">రోడ్డు</string>
+    <string name="బండి">బండి</string>
+    <string name="తొండ">తొండ</string>
+
+    //title
+
+    <string name="ఢ">ఢ</string>
+
+    //initial
+
+    <string name="ఢమరుకం">ఢమరుకం</string>
+
+
+    //medial
+
+    //final
+
+    //title
+
+    <string name="త">త</string>
+
+    //initial
+    <string name="తలుపు">తలుపు</string>
+    <string name="తాడు">తాడు</string>
+    <string name="తొమ్మిది">తొమ్మిది</string>
+    <string name="తోక">తోక</string>
+    <string name="తల">తల</string>
+    <string name="తేనె">తేనె</string>
+    <string name="తాబేలు">తాబేలు</string>
+    <string name="తొట్టి">తొట్టి</string>
+    <string name="తాత">తాత</string>
+    <string name="తూనీగ">తూనీగ</string>
+
+
+    //medial
+
+    <string name="వంతెన">వంతెన</string>
+    <string name="పుస్తకము">పుస్తకము</string>
+    <string name="విత్తనం">విత్తనం</string>
+    <string name="చింతకాయ">చింతకాయ</string>
+
+    //final
+
+    <string name="మూత">మూత</string>
+    <string name="కోతి">కోతి</string>
+    <string name="చిరుత">చిరుత</string>
+    <string name="చెత్త">చెత్త</string>
+
+    //title
+
+    <string name="ద">ద</string>
+
+    //initial
+
+    <string name="దంతం">దంతం</string>
+    <string name="దిండు">దిండు</string>
+    <string name="దువ్వెన">దువ్వెన</string>
+    <string name="దారం">దారం</string>
+    <string name="దీపము">దీపము</string>
+    <string name="దీపావళి">దీపావళి</string>
+    <string name="దోమ">దోమ</string>
+    <string name="దానిమ్మపండు">దానిమ్మపండు</string>
+
+
+    //medial
+
+    <string name="మందారం">మందారం</string>
+    <string name="కుందేలు">కుందేలు</string>
+    <string name="కందిపప్పు">కందిపప్పు</string>
+    <string name="కందగడ్డ">కందగడ్డ</string>
+    <string name="కందీరీగ">కందీరీగ</string>
+    <string name="పందిరి">పందిరి</string>
+    <string name="పుదీన">పుదీన</string>
+
+    //final
+
+    <string name="నది">నది</string>
+    <string name="పంది">పంది</string>
+    <string name="వంద">వంద</string>
+
+    //title
+
+    <string name="ధ">ధ</string>
+
+    //initial
+
+    <string name="ధనస్సు">ధనస్సు</string>
+    <string name="ధనలక్ష్మీ">ధనలక్ష్మీ</string>
+
+    //medial
+
+    //final
+
+    //title
+
+    <string name="న">న</string>
+
+    //initial
+    <string name="నాలుక">నాలుక</string>
+    <string name="నాన్న">నాన్న</string>
+    <string name="నీరు">నీరు</string>
+    <string name="నిమ్మకాయ">నిమ్మకాయ</string>
+    <string name="నోరు">నోరు</string>
+    <string name="నెమలి">నెమలి</string>
+    <string name="నాటకం">నాటకం</string>
+    <string name="నత్త">నత్త</string>
+    <string name="నడుము">నడుము</string>
+
+    //medial
+
+    <string name="తేనె_పట్టు">తేనె పట్టు</string>
+    <string name="వెన్నముద్ద">వెన్నముద్ద</string>
+    <string name="పన్నీరు">పన్నీరు</string>
+    <string name="పానకం">పానకం</string>
+
+    //final
+
+    <string name="పన్ను">పన్ను</string>
+    <string name="నూనె">నూనె</string>
+    <string name="ఫోను">ఫోను</string>
+    <string name="ఫ్యాను">ఫ్యాను</string>
+    <string name="పెన్ను">పెన్ను</string>
+
+
+    //title
+
+    <string name="ప">ప</string>
+
+    //initial
+
+    <string name="పాము">పాము</string>
+    <string name="పళ్ళు">పళ్ళు</string>
+    <string name="పెనం">పెనం</string>
+    <string name="పులిహోర">పులిహోర</string>
+    <string name="పెన్సిలు">పెన్సిలు</string>
+    <string name="పులి">పులి</string>
+    <string name="ప్యాంటు">ప్యాంటు</string>
+    <string name="పేపరు">పేపరు</string>
+    <string name="పోలీసు">పోలీసు</string>
+
+
+    //medial
+
+    <string name="మిరపకాయ">మిరపకాయ</string>
+    <string name="రంపము">రంపము</string>
+    <string name="గాలిపటం">గాలిపటం</string>
+    <string name="తుపాకి">తుపాకి</string>
+
+    //final
+    <string name="పాప">తుపాకి</string>
+    <string name="పరుపు">తుపాకి</string>
+    <string name="నలుపు">తుపాకి</string>
+    <string name="బంగాళదుంప">తుపాకి</string>
+
+
+    //title
+
+    <string name="ఫ">ఫ</string>
+
+    //initial
+    <string name="ఫలములు">ఫలములు</string>
+    <string name="ఫిరంగి">ఫిరంగి</string>
+    <string name="ఫ్లూటు">ఫ్లూటు</string>
+    <string name="ఫ్రిడ్జ్">ఫ్రిడ్జ్</string>
+
+
+    //medial
+
+    //final
+    <string name="సోఫా">సోఫా</string>
+    <string name="సెల్ఫీ">సెల్ఫీ</string>
+    <string name="జిరాఫి">జిరాఫి</string>
+
+
+    //title
+
+    <string name="బ">బ</string>
+
+    //initial
+
+    <string name="బల్ల">బల్ల</string>
+    <string name="బ్రష్">బ్రష్</string>
+    <string name="బస్సు">బస్సు</string>
+    <string name="బాణం">బాణం</string>
+    <string name="బంతి">బంతి</string>
+    <string name="బల్లి">బల్లి</string>
+    <string name="బక్కెట్">బక్కెట్</string>
+    <string name="బలపం">బలపం</string>
+    <string name="బీట్_రూట్">బీట్ రూట్</string>
+    <string name="బెల్లం">బెల్లం</string>
+
+
+    //medial
+    <string name="తబల">తబల</string>
+    <string name="కొబ్బరి">కొబ్బరి</string>
+    <string name="రబ్బరు">రబ్బరు</string>
+
+
+    //final
+    <string name="సబ్బు">సబ్బు</string>
+    <string name="బాబు">బాబు</string>
+    <string name="చెంబు">చెంబు</string>
+
+
+    //title
+
+    <string name="భ">భ</string>
+
+    //initial
+    <string name="భరిణ">భరిణ</string>
+    <string name="భరతమాత">భరతమాత</string>
+    <string name="భారతదేశం">భారతదేశం</string>
+    <string name="భోజనం">భోజనం</string>
+    <string name="భజన">భజన</string>
+
+    //medial
+
+    //final
+
+    //title
+
+    <string name="మ">మ</string>
+
+    //initial
+
+    <string name="మామిడి">మామిడి</string>
+    <string name="మెట్లు">మెట్లు</string>
+    <string name="మొగ్గ">మొగ్గ</string>
+    <string name="మల్లెపువ్వు">మల్లెపువ్వు</string>
+    <string name="మేక">మేక</string>
+    <string name="మొసలి">మొసలి</string>
+    <string name="మాల">మాల</string>
+    <string name="మెంతులు">మెంతులు</string>
+    <string name="మీసం">మీసం</string>
+
+
+    //medial
+    <string name="కెమెరా">కెమెరా</string>
+    <string name="కొమ్ములు">కొమ్ములు</string>
+    <string name="చీమలు">చీమలు</string>
+    <string name="తమలపాకు">తమలపాకు</string>
+    <string name="సిమెంటు">సిమెంటు</string>
+    <string name="కమలాపండు">కమలాపండు</string>
+
+
+    //final
+    <string name="బొమ్మ">బొమ్మ</string>
+    <string name="పాదము">పాదము</string>
+    <string name="కుంకుమ">కుంకుమ</string>
+    <string name="కోలాటం">కోలాటం</string>
+    <string name="రథము">రథము</string>
+    <string name="పావురం">పావురం</string>
+
+    //title
+
+    <string name="య">య</string>
+
+    //initial
+    <string name="యజ్ఞం">యజ్ఞం</string>
+    <string name="యాభై">యాభై</string>
+    <string name="యముడు">యముడు</string>
+    <string name="యాలుకలు">యాలుకలు</string>
+    <string name="యుద్ధం">యుద్ధం</string>
+
+    //medial
+    <string name="దెయ్యం">దెయ్యం</string>
+    <string name="బియ్యం">బియ్యం</string>
+    <string name="టపాకాయలు">టపాకాయలు</string>
+    <string name="వడియాలు">వడియాలు</string>
+
+
+    //final
+    <string name="రుపాయి">రుపాయి</string>
+    <string name="బీరకాయ">బీరకాయ</string>
+    <string name="మునక్కాయ">మునక్కాయ</string>
+    <string name="సేమియా">సేమియా</string>
+
+    //title
+
+    <string name="ర">ర</string>
+
+    //initial
+    <string name="రాయి">రాయి</string>
+    <string name="రంధ్రము">రంధ్రము</string>
+    <string name="రెక్కలు">రెక్కలు</string>
+    <string name="రాత్రి">రాత్రి</string>
+    <string name="రాణి">రాణి</string>
+    <string name="రైలు">రైలు</string>
+
+
+    //medial
+    <string name="బీరువా">బీరువా</string>
+    <string name="వజ్రాలు">వజ్రాలు</string>
+    <string name="సిరా">సిరా</string>
+    <string name="గరిట">గరిట</string>
+
+
+    //final
+    <string name="కర్ర">కర్ర</string>
+    <string name="కూర">కూర</string>
+    <string name="అలమర">అలమర</string>
+    <string name="మర">మర</string>
+    <string name="కారు_ర">కారు</string>
+    <string name="కంప్యూటర్">కంప్యూటర్</string>
+
+
+    //title
+
+    <string name="ల">ల</string>
+
+    //initial
+    <string name="లైటు">లైటు</string>
+    <string name="లాఠీ">లాఠీ</string>
+    <string name="లాంతరు">లాంతరు</string>
+    <string name="లడ్డు">లడ్డు</string>
+    <string name="తల_ల">తల</string>
+    <string name="లత">లత</string>
+
+
+    //medial
+    <string name="గిలక">గిలక</string>
+    <string name="అలారం">అలారం</string>
+    <string name="అల్లం">అల్లం</string>
+    <string name="కొలను">కొలను</string>
+
+    //final
+    <string name="పాలు">పాలు</string>
+    <string name="పిల్లి">పిల్లి</string>
+    <string name="ఈల">ఈల</string>
+    <string name="కాలు">కాలు</string>
+    <string name="చేతులు">చేతులు</string>
+    <string name="వేళ్ళు">వేళ్ళు</string>
+
+    //title
+
+    <string name="వ">వ</string>
+
+    //initial
+
+    <string name="వర్షం">వర్షం</string>
+    <string name="వల">వల</string>
+    <string name="వాము">వాము</string>
+    <string name="వరి">వరి</string>
+    <string name="వీణ">వీణ</string>
+    <string name="వీపు">వీపు</string>
+    <string name="వాచీ">వాచీ</string>
+
+
+    //medial
+
+    <string name="శివుడు">శివుడు</string>
+    <string name="తువాలు">తువాలు</string>
+    <string name="ఆవాలు">ఆవాలు</string>
+
+
+    //final
+
+    <string name="శిలువ">శిలువ</string>
+    <string name="తాళంచెవి">తాళంచెవి</string>
+    <string name="పొయ్యి">పొయ్యి</string>
+
+    //title
+
+    <string name="శ">శ</string>
+
+    //initial
+
+    <string name="శంఖం_శ">శంఖం</string>
+    <string name="శనగలు">శనగలు</string>
+    <string name="శనగపిండి">శనగపిండి</string>
+    <string name="శాలీడు">శాలీడు</string>
+    <string name="శాలువ">శాలువ</string>
+    <string name="శిఖరం">శిఖరం</string>
+
+
+    //medial
+
+    <string name="రాశులు">రాశులు</string>
+
+    //final
+
+    //title
+
+    <string name="ష">ష</string>
+
+    //initial
+    <string name="షర్టు">షర్టు</string>
+    <string name="షాంపూ">షాంపూ</string>
+    <string name="షటిల్">షటిల్</string>
+    <string name="షూ">షూ</string>
+    <string name="షవర్">షవర్</string>
+    <string name="షేవ్">షేవ్</string>
+
+
+    //medial
+
+    <string name="వేషం">వేషం</string>
+    <string name="కాషాయం">కాషాయం</string>
+    <string name="విషం">విషం</string>
+
+
+    //final
+
+    <string name="గణేష్">గణేష్</string>
+
+    //title
+
+    <string name="స">స</string>
+
+    //initial
+
+    <string name="సంత">సంత</string>
+    <string name="సేతు">సేతు</string>
+    <string name="సరుకు">సరుకు</string>
+    <string name="సూది">సూది</string>
+    <string name="సూప్">సూప్</string>
+    <string name="సూట్">సూట్</string>
+    <string name="సముద్రం">సముద్రం</string>
+    <string name="సూర్యుడు">సూర్యుడు</string>
+    <string name="సీతాఫలం">సీతాఫలం</string>
+
+
+    //medial
+
+    <string name="పసుపు">పసుపు</string>
+    <string name="పనసపండు">పనసపండు</string>
+
+    //final
+
+    <string name="సరస్సు">సరస్సు</string>
+    <string name="గ్లాసు">గ్లాసు</string>
+    <string name="నర్సు">నర్సు</string>
+    <string name="సాస్">సాస్</string>
+    <string name="పరుసు">పరుసు</string>
+
+
+    //title
+
+    <string name="హ">హ</string>
+
+    //initial
+
+    <string name="హారతి">హారతి</string>
+    <string name="హరం">హరం</string>
+    <string name="హంస">హంస</string>
+    <string name="హల్వ">హల్వ</string>
+    <string name="హంగర్">హంగర్</string>
+    <string name="హెలికాప్టర్">హెలికాప్టర్</string>
+
+
+    //medial
+    <string name="సింహం">సింహం</string>
+
+    //final
+
+    //title
+
+    <string name="ళ">ళ</string>
+
+    //initial
+
+    //medial
+    <string name="తాళం">తాళం</string>
+    <string name="పెళ్ళి">పెళ్ళి</string>
+    <string name="తాళి">తాళి</string>
+
+    //final
+
+    //title
+
+    <string name="క్ష">క్ష</string>
+
+    //initial
+    <string name="క్షవరంక్ష">క్షవరం</string>
+    <string name="క్షత్రియుడు">క్షత్రియుడు</string>
+
+    //medial
+
+    //final
+    <string name="శిక్ష">శిక్ష</string>
+    <string name="రిక్షా">రిక్షా</string>
+    <string name="బిక్ష">క్ష</string>
+    <string name="medial">Medial</string>
+    <string name="initial">Initial</string>
+    <string name="load_cards">Load Cards</string>
+    <string name="final_string">Final</string>
+    <string name="flash_cards">Flash Cards</string>
+    <string name="choose_articualtion">Choose Articualtion</string>
+
+
+</resources>
