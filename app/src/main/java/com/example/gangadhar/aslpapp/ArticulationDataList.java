@@ -4,6 +4,14 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ArticulationDataList {
+    public ArrayList<ArticulationData> getArticulationDataArrayList() {
+        return articulationDataArrayList;
+    }
+
+    public void setArticulationDataArrayList(ArrayList<ArticulationData> articulationDataArrayList) {
+        this.articulationDataArrayList = articulationDataArrayList;
+    }
+
     private ArrayList<ArticulationData> articulationDataArrayList;
 
 

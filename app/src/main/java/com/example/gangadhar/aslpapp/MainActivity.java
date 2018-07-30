@@ -6,18 +6,29 @@ import android.support.v7.widget.RecyclerView;
 
 public class MainActivity extends AppCompatActivity {
 
-   private RecyclerView mRecyclerView;
+    private RecyclerView mRecyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        initUi();
+        setupRecyclerView();
 
 
     }
-    private void initUi(){
+
+    private void setupRecyclerView() {
+        ArticulationDataList articulationDataList = new ArticulationDataList();
+        MainGridLayoutManager gridLayoutManager = new MainGridLayoutManager(this, 5);
+        ArticulationAdapter articulationAdapter = new ArticulationAdapter(this, articulationDataList);
+
+        mRecyclerView.setLayoutManager(gridLayoutManager);
+        mRecyclerView.setAdapter(articulationAdapter);
+
+    }
+
+    private void initUi() {
         mRecyclerView = findViewById(R.id.articulation_recyclerview);
-
-
     }
 }
