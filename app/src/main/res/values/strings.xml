@@ -278,7 +278,7 @@
 
     //initial
 
-    <string name="టీ.వి">టీ.వి</string>
+    <string name="టీ_వి">టీ.వి</string>
     <string name="టార్చ్">టార్చ్</string>
     <string name="ట్రాక్టరు">ట్రాక్టరు</string>
     <string name="టేపు">టేపు</string>
@@ -831,6 +831,8 @@
     <string name="శిక్ష">శిక్ష</string>
     <string name="రిక్షా">రిక్షా</string>
     <string name="బిక్ష">క్ష</string>
+
+
     <string name="medial">Medial</string>
     <string name="initial">Initial</string>
     <string name="load_cards">Load Cards</string>
