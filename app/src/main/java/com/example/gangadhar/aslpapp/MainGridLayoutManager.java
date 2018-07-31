@@ -16,6 +16,7 @@ public class MainGridLayoutManager extends GridLayoutManager {
     }
 
 
+
     @Override
     public RecyclerView.LayoutParams generateDefaultLayoutParams() {
         return spanLayoutSize(super.generateDefaultLayoutParams());
@@ -38,9 +39,9 @@ public class MainGridLayoutManager extends GridLayoutManager {
 
     private RecyclerView.LayoutParams spanLayoutSize(RecyclerView.LayoutParams layoutParams) {
         if (getOrientation() == HORIZONTAL) {
-            layoutParams.width = (int) Math.round(getHorizontalSpace() / Math.ceil(getItemCount() / getSpanCount())) - layoutParams.leftMargin - layoutParams.rightMargin;
+            layoutParams.width = (int) Math.round(getHorizontalSpace() / getSpanCount()) - layoutParams.leftMargin - layoutParams.rightMargin;
         } else if (getOrientation() == VERTICAL) {
-            layoutParams.height = (int) Math.round(getVerticalSpace() / Math.ceil(getItemCount() / getSpanCount())) - layoutParams.topMargin - layoutParams.bottomMargin;
+            layoutParams.height = (int) Math.round(getVerticalSpace() / Math.ceil((float)getItemCount() / (float) getSpanCount())) - layoutParams.topMargin - layoutParams.bottomMargin;
         }
         return layoutParams;
     }

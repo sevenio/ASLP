@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupRecyclerView() {
         ArticulationDataList articulationDataList = new ArticulationDataList();
-        MainGridLayoutManager gridLayoutManager = new MainGridLayoutManager(this, 5);
+        MainGridLayoutManager gridLayoutManager = new MainGridLayoutManager(this, 4);
         ArticulationAdapter articulationAdapter = new ArticulationAdapter(this, articulationDataList);
 
         mRecyclerView.setLayoutManager(gridLayoutManager);
