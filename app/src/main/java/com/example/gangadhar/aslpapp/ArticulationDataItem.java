@@ -1,7 +1,10 @@
 package com.example.gangadhar.aslpapp;
 
 
-public class ArticulationDataItem {
+import android.os.Parcel;
+import android.os.Parcelable;
+
+public class ArticulationDataItem implements Parcelable {
     public int getmLetterId() {
         return mLetterId;
     }
@@ -28,6 +31,35 @@ public class ArticulationDataItem {
 
     private int mLetterId;
     private int mAudioId, mImageId;
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel parcel, int i) {
+        parcel.writeInt(mLetterId);
+        parcel.writeInt(mAudioId);
+        parcel.writeInt(mImageId);
+    }
+    protected ArticulationDataItem(Parcel in) {
+        mLetterId = in.readInt();
+        mAudioId = in.readInt();
+        mImageId = in.readInt();
+    }
+
+    public static final Creator<ArticulationDataItem> CREATOR = new Creator<ArticulationDataItem>() {
+        @Override
+        public ArticulationDataItem createFromParcel(Parcel in) {
+            return new ArticulationDataItem(in);
+        }
+
+        @Override
+        public ArticulationDataItem[] newArray(int size) {
+            return new ArticulationDataItem[size];
+        }
+    };
 
     public static class Builder {
         private int mLetterId;

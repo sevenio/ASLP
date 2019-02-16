@@ -713,7 +713,7 @@ public class ArticulationDataList {
 
     }
 
-    private ArticulationDataItem builArticulationDataItem(int letterId, int audioId, int imageid) {
+    private ArticulationDataItem builArticulationDataItem(int letterId, int imageid, int audioId) {
         return new ArticulationDataItem.Builder().setLetterId(letterId)
                 .setAudioId(audioId)
                 .setImageId(imageid)
