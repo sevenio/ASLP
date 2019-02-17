@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml:2:1-9:12
+	package
+		ADDED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml:3:5-55
+		INJECTED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml
+		INJECTED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml
+		INJECTED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml
+		INJECTED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml:7:5-72
+INJECTED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml:7:5-72
+INJECTED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml:7:5-72
+INJECTED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml:7:5-72
+INJECTED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml:7:5-72
+	android:targetSdkVersion
+		ADDED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml:7:41-70
+		INJECTED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml
+		INJECTED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml:7:15-40
+		INJECTED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml
+		INJECTED from /Users/gangadhar/Documents/ASLPApp/downloader_library/src/main/AndroidManifest.xml
