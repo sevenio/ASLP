@@ -1,5 +1,9 @@
 package com.example.gangadhar.aslpapp;
 
+import android.app.Activity;
+import android.content.SharedPreferences;
+import android.speech.RecognizerIntent;
+import android.speech.SpeechRecognizer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
@@ -27,16 +31,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     };
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        if (!SpeechRecognizer.isRecognitionAvailable(this)) {
+            SharedPreferences.Editor editor = getSharedPreferences("my_prefs", MODE_PRIVATE).edit();
+            editor.putBoolean("isLanguageSupported", false);
+            editor.apply();
+        } else {
+            sendOrderedBroadcast(RecognizerIntent
+                    .getVoiceDetailsIntent(this), null, new LanguageDetailsReceiver(this), null, Activity.RESULT_OK, null, null);
+        }
         initUi();
         setupRecyclerView();
     }
 
     private void setupRecyclerView() {
-         articulationDataList = new ArticulationDataList();
+        articulationDataList = new ArticulationDataList();
         GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 4);
         ArticulationAdapter articulationAdapter = new ArticulationAdapter(this, articulationDataList, adapterCallback);
         mRecyclerView.setLayoutManager(gridLayoutManager);
@@ -60,9 +73,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.initial_button: {
-                if(!isInitial){
+                if (!isInitial) {
                     initial_button.setBackgroundColor(getResources().getColor(R.color.colorSelected));
-                }else {
+                } else {
                     initial_button.setBackgroundColor(getResources().getColor(R.color.colorDeSelected));
                 }
                 isInitial = !isInitial;
@@ -70,42 +83,42 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             }
             case R.id.medial_button: {
-                if(!isMedial){
+                if (!isMedial) {
                     medial_button.setBackgroundColor(getResources().getColor(R.color.colorSelected));
-                }else {
+                } else {
                     medial_button.setBackgroundColor(getResources().getColor(R.color.colorDeSelected));
                 }
                 isMedial = !isMedial;
                 break;
             }
             case R.id.final_button: {
-                if(!isFinal){
+                if (!isFinal) {
                     final_button.setBackgroundColor(getResources().getColor(R.color.colorSelected));
-                }else {
+                } else {
                     final_button.setBackgroundColor(getResources().getColor(R.color.colorDeSelected));
                 }
                 isFinal = !isFinal;
                 break;
             }
-            case R.id.load_images:{
+            case R.id.load_images: {
                 ArrayList<ArticulationData> articulationDataList = this.articulationDataList.getArticulationDataArrayList();
                 ArticulationData articulationData = articulationDataList.get(position);
                 ArrayList<ArticulationDataItem> articulationDataItems = new ArrayList<>();
-                if(!(isInitial || isFinal || isMedial)){
+                if (!(isInitial || isFinal || isMedial)) {
                     Toast.makeText(MainActivity.this, "Please select atleast one option", Toast.LENGTH_LONG).show();
                     return;
                 }
-                if(isInitial){
+                if (isInitial) {
                     articulationDataItems.addAll(articulationData.getInitialList());
                 }
-                if(isMedial){
+                if (isMedial) {
                     articulationDataItems.addAll(articulationData.getMedialList());
                 }
-                if(isFinal){
+                if (isFinal) {
                     articulationDataItems.addAll(articulationData.getFinalList());
                 }
-                if(articulationDataItems.isEmpty()){
-                    Toast.makeText(MainActivity.this, "No cards available for the given selection" , Toast.LENGTH_LONG).show();
+                if (articulationDataItems.isEmpty()) {
+                    Toast.makeText(MainActivity.this, "No cards available for the given selection", Toast.LENGTH_LONG).show();
                     return;
                 }
                 startActivity(SecondActivity.createIntent(MainActivity.this, articulationDataItems));

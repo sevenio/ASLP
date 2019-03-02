@@ -1,8 +1,16 @@
 package com.example.gangadhar.aslpapp;
 
+import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.media.MediaPlayer;
+import android.speech.RecognitionListener;
+import android.speech.RecognizerIntent;
+import android.speech.SpeechRecognizer;
+import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -15,16 +23,18 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Locale;
 
 public class SecondActivity extends AppCompatActivity implements View.OnClickListener {
     private static final String ARTICULATON_DATA_ITEMS = "ARTICULATON_DATA_ITEMS";
     private static final String ARTICULATON_DATA_ITEMS_BUNDLE = "ARTICULATON_DATA_ITEMS_BUNDLE";
+    private static final int REQUEST_SPEECH_RECOGNIZER = 123;
     private CardView next, playAgain, speak, correct, wrong, status;
     private TextView imageName, cardIndex, correctCountText, wrongCountText;
     private ImageView image;
     private MediaPlayer mediaPlayer = new MediaPlayer();
-
+    private static final int REQUEST_RECORD_PERMISSION = 100;
 
     public static Intent createIntent(Context context, ArrayList<ArticulationDataItem> articulationDataItems) {
 
@@ -66,12 +76,15 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
+
         if (getIntent() != null) {
             articulationDataItems = getIntent().getBundleExtra(ARTICULATON_DATA_ITEMS_BUNDLE).getParcelableArrayList(ARTICULATON_DATA_ITEMS);
         }
+
         setupViews();
         bindView(articulationDataItems.get(0));
         setOnclickListeners();
+
     }
 
     private void setOnclickListeners() {
@@ -117,7 +130,7 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
             Toast.makeText(SecondActivity.this, "You reached the end of the cards ", Toast.LENGTH_LONG).show();
         } else {
             mediaPlayer.stop();
-            mediaPlayer = MediaPlayer.create(SecondActivity.this, R.raw.one);
+            mediaPlayer = MediaPlayer.create(SecondActivity.this, articulationDataItems.get(cardNumber).getmAudioId());
             mediaPlayer.start();
         }
     }
@@ -142,6 +155,21 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
                 break;
             }
             case R.id.speak: {
+                SharedPreferences prefs = getSharedPreferences("my_prefs", MODE_PRIVATE);
+               if(prefs.getBoolean("isLanguageSupported", false)) {
+
+                   if (checkWriteExternalPermission()) {
+                       startSpeechRecognizer();
+                   } else {
+                       ActivityCompat.requestPermissions
+                               (SecondActivity.this,
+                                       new String[]{Manifest.permission.RECORD_AUDIO},
+                                       REQUEST_RECORD_PERMISSION);
+                   }
+               }else {
+                   Toast.makeText(SecondActivity.this, "Telugu language not supported", Toast.LENGTH_SHORT).show();
+
+               }
                 break;
             }
             case R.id.image: {
@@ -150,4 +178,51 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
             }
         }
     }
+
+
+    private boolean checkWriteExternalPermission() {
+        String permission = android.Manifest.permission.RECORD_AUDIO;
+        int res = checkCallingOrSelfPermission(permission);
+        return (res == PackageManager.PERMISSION_GRANTED);
+    }
+    private void startSpeechRecognizer() {
+        Intent intent = new Intent
+                (RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,
+                RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
+        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, "te_IN");
+        startActivityForResult(intent, REQUEST_SPEECH_RECOGNIZER);
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        switch (requestCode) {
+            case REQUEST_RECORD_PERMISSION:
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    startSpeechRecognizer();
+                } else {
+                    Toast.makeText(SecondActivity.this, "Permission Denied!", Toast.LENGTH_SHORT).show();
+                }
+        }
+    }
+
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode,
+                                    Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == REQUEST_SPEECH_RECOGNIZER) {
+            if (resultCode == RESULT_OK) {
+                List<String> results = data.getStringArrayListExtra
+                        (RecognizerIntent.EXTRA_RESULTS);
+                Toast.makeText(SecondActivity.this, results.get(0), Toast
+                        .LENGTH_SHORT).show();
+
+            }
+        }
+    }
+
+
 }
