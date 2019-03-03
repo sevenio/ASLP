@@ -432,49 +432,49 @@ public class ArticulationDataList {
                 builArticulationData(
                         R.string.ఫ
                         , buildInitialList(
-//                                builArticulationDataItem(R.string.ఫలములు, R.drawable.image_236, R.raw.audio_of_image_236)
-                                 builArticulationDataItem(R.string.ఫిరంగి, R.drawable.image_237, R.raw.audio_of_image_237)
-                                , builArticulationDataItem(R.string.ఫ్లూటు, R.drawable.image_238, R.raw.audio_of_image_238)
-                                , builArticulationDataItem(R.string.ఫ్రిడ్జ్, R.drawable.image_239, R.raw.audio_of_image_239))
+                                builArticulationDataItem(R.string.ఫలములు, R.drawable.image_236, R.raw.audio_of_image_237)
+                                , builArticulationDataItem(R.string.ఫిరంగి, R.drawable.image_237, R.raw.audio_of_image_238)
+                                , builArticulationDataItem(R.string.ఫ్లూటు, R.drawable.image_238, R.raw.audio_of_image_239)
+                                , builArticulationDataItem(R.string.ఫ్రిడ్జ్, R.drawable.image_239, R.raw.audio_of_image_240))
                         , buildMedialList()
                         , buildFinalList(
-                                builArticulationDataItem(R.string.సోఫా, R.drawable.image_240, R.raw.audio_of_image_240)
-                                , builArticulationDataItem(R.string.సెల్ఫీ, R.drawable.image_241, R.raw.audio_of_image_241)
-                                , builArticulationDataItem(R.string.జిరాఫి, R.drawable.image_242, R.raw.audio_of_image_242))));
+                                builArticulationDataItem(R.string.సోఫా, R.drawable.image_240, R.raw.audio_of_image_241)
+                                , builArticulationDataItem(R.string.సెల్ఫీ, R.drawable.image_241, R.raw.audio_of_image_242)
+                                , builArticulationDataItem(R.string.జిరాఫి, R.drawable.image_242, R.raw.audio_of_image_243))));
         //TODO image 256 for సబ్బు,
 
         articulationDataArrayList.add(
                 builArticulationData(
                         R.string.బ
                         , buildInitialList(
-                                builArticulationDataItem(R.string.బల్ల, R.drawable.image_243, R.raw.audio_of_image_243)
-                                , builArticulationDataItem(R.string.బ్రష్, R.drawable.image_244, R.raw.audio_of_image_244)
-                                , builArticulationDataItem(R.string.బస్సు, R.drawable.image_245, R.raw.audio_of_image_245)
-                                , builArticulationDataItem(R.string.బాణం, R.drawable.image_246, R.raw.audio_of_image_246)
-                                , builArticulationDataItem(R.string.బంతి, R.drawable.image_247, R.raw.audio_of_image_247)
-                                , builArticulationDataItem(R.string.బల్లి, R.drawable.image_248, R.raw.audio_of_image_248)
-                                , builArticulationDataItem(R.string.బక్కెట్, R.drawable.image_249, R.raw.audio_of_image_249)
-                                , builArticulationDataItem(R.string.బలపం, R.drawable.image_250, R.raw.audio_of_image_250)
-                                , builArticulationDataItem(R.string.బీట్_రూట్, R.drawable.image_251, R.raw.audio_of_image_251)
-                                , builArticulationDataItem(R.string.బెల్లం, R.drawable.image_252, R.raw.audio_of_image_252))
+                                builArticulationDataItem(R.string.బల్ల, R.drawable.image_243, R.raw.audio_of_image_244)
+                                , builArticulationDataItem(R.string.బ్రష్, R.drawable.image_244, R.raw.audio_of_image_245)
+                                , builArticulationDataItem(R.string.బస్సు, R.drawable.image_245, R.raw.audio_of_image_246)
+                                , builArticulationDataItem(R.string.బాణం, R.drawable.image_246, R.raw.audio_of_image_247)
+                                , builArticulationDataItem(R.string.బంతి, R.drawable.image_247, R.raw.audio_of_image_248)
+                                , builArticulationDataItem(R.string.బల్లి, R.drawable.image_248, R.raw.audio_of_image_249)
+                                , builArticulationDataItem(R.string.బక్కెట్, R.drawable.image_249, R.raw.audio_of_image_250)
+                                , builArticulationDataItem(R.string.బలపం, R.drawable.image_250, R.raw.audio_of_image_251)
+                                , builArticulationDataItem(R.string.బీట్_రూట్, R.drawable.image_251, R.raw.audio_of_image_252)
+                                , builArticulationDataItem(R.string.బెల్లం, R.drawable.image_252, R.raw.audio_of_image_253))
                         , buildMedialList(
-                                builArticulationDataItem(R.string.తబల, R.drawable.image_253, R.raw.audio_of_image_253)
-                                , builArticulationDataItem(R.string.కొబ్బరి, R.drawable.image_254, R.raw.audio_of_image_254)
-                                , builArticulationDataItem(R.string.రబ్బరు, R.drawable.image_255, R.raw.audio_of_image_255))
+                                builArticulationDataItem(R.string.తబల, R.drawable.image_253, R.raw.audio_of_image_254)
+                                , builArticulationDataItem(R.string.కొబ్బరి, R.drawable.image_254, R.raw.audio_of_image_255)
+                                , builArticulationDataItem(R.string.రబ్బరు, R.drawable.image_255, R.raw.audio_of_image_256))
                         , buildFinalList(
-                                builArticulationDataItem(R.string.సబ్బు, R.drawable.image_256, R.raw.audio_of_image_256)
-                                , builArticulationDataItem(R.string.బాబు, R.drawable.image_257, R.raw.audio_of_image_257)
-                                , builArticulationDataItem(R.string.చెంబు, R.drawable.image_258, R.raw.audio_of_image_258))));
+                                builArticulationDataItem(R.string.సబ్బు, R.drawable.image_256, R.raw.audio_of_image_257)
+                                , builArticulationDataItem(R.string.బాబు, R.drawable.image_257, R.raw.audio_of_image_258)
+                                , builArticulationDataItem(R.string.చెంబు, R.drawable.image_258, R.raw.audio_of_image_259))));
 
         articulationDataArrayList.add(
                 builArticulationData(
                         R.string.భ
                         , buildInitialList(
-                                builArticulationDataItem(R.string.భరిణ, R.drawable.image_259, R.raw.audio_of_image_259)
-                                , builArticulationDataItem(R.string.భరతమాత, R.drawable.image_260, R.raw.audio_of_image_260)
-                                , builArticulationDataItem(R.string.భారతదేశం, R.drawable.image_261, R.raw.audio_of_image_261)
-                                , builArticulationDataItem(R.string.భోజనం, R.drawable.image_262, R.raw.audio_of_image_262)
-                                , builArticulationDataItem(R.string.భజన, R.drawable.image_263, R.raw.audio_of_image_263))
+                                builArticulationDataItem(R.string.భరిణ, R.drawable.image_259, R.raw.audio_of_image_260)
+                                , builArticulationDataItem(R.string.భరతమాత, R.drawable.image_260, R.raw.audio_of_image_261)
+                                , builArticulationDataItem(R.string.భారతదేశం, R.drawable.image_261, R.raw.audio_of_image_262)
+                                , builArticulationDataItem(R.string.భోజనం, R.drawable.image_262, R.raw.audio_of_image_263)
+                                , builArticulationDataItem(R.string.భజన, R.drawable.image_263, R.raw.audio_of_image_264))
                         , buildMedialList()
                         , buildFinalList()));
 //TODO provide image 284 for పావురం, 283 for రథము, 277 for సిమెంటు, 268 for మేక
@@ -482,96 +482,96 @@ public class ArticulationDataList {
                 builArticulationData(
                         R.string.మ
                         , buildInitialList(
-                                builArticulationDataItem(R.string.మామిడి, R.drawable.image_264, R.raw.audio_of_image_264)
-                                , builArticulationDataItem(R.string.మెట్లు, R.drawable.image_265, R.raw.audio_of_image_265)
-                                , builArticulationDataItem(R.string.మొగ్గ, R.drawable.image_266, R.raw.audio_of_image_266)
-                                , builArticulationDataItem(R.string.మల్లెపువ్వు, R.drawable.image_267, R.raw.audio_of_image_267)
-                                , builArticulationDataItem(R.string.మేక, R.drawable.image_268, R.raw.audio_of_image_268)
-                                , builArticulationDataItem(R.string.మొసలి, R.drawable.image_269, R.raw.audio_of_image_269)
-                                , builArticulationDataItem(R.string.మాల, R.drawable.image_270, R.raw.audio_of_image_270)
-                                , builArticulationDataItem(R.string.మెంతులు, R.drawable.image_271, R.raw.audio_of_image_271)
-                                , builArticulationDataItem(R.string.మీసం, R.drawable.image_272, R.raw.audio_of_image_272))
+                                builArticulationDataItem(R.string.మామిడి, R.drawable.image_264, R.raw.audio_of_image_265)
+                                , builArticulationDataItem(R.string.మెట్లు, R.drawable.image_265, R.raw.audio_of_image_266)
+                                , builArticulationDataItem(R.string.మొగ్గ, R.drawable.image_266, R.raw.audio_of_image_267)
+                                , builArticulationDataItem(R.string.మల్లెపువ్వు, R.drawable.image_267, R.raw.audio_of_image_268)
+                                , builArticulationDataItem(R.string.మేక, R.drawable.image_268, R.raw.audio_of_image_269)
+                                , builArticulationDataItem(R.string.మొసలి, R.drawable.image_269, R.raw.audio_of_image_270)
+                                , builArticulationDataItem(R.string.మాల, R.drawable.image_270, R.raw.audio_of_image_271)
+                                , builArticulationDataItem(R.string.మెంతులు, R.drawable.image_271, R.raw.audio_of_image_272)
+                                , builArticulationDataItem(R.string.మీసం, R.drawable.image_272, R.raw.audio_of_image_273))
                         , buildMedialList(
-                                builArticulationDataItem(R.string.కెమెరా, R.drawable.image_273, R.raw.audio_of_image_273)
-                                , builArticulationDataItem(R.string.కొమ్ములు, R.drawable.image_274, R.raw.audio_of_image_274)
-                                , builArticulationDataItem(R.string.చీమలు, R.drawable.image_275, R.raw.audio_of_image_275)
-                                , builArticulationDataItem(R.string.తమలపాకు, R.drawable.image_276, R.raw.audio_of_image_276)
-                                , builArticulationDataItem(R.string.సిమెంటు, R.drawable.image_277, R.raw.audio_of_image_277)
-                                , builArticulationDataItem(R.string.కమలాపండు, R.drawable.image_278, R.raw.audio_of_image_278))
+                                builArticulationDataItem(R.string.కెమెరా, R.drawable.image_273, R.raw.audio_of_image_274)
+                                , builArticulationDataItem(R.string.కొమ్ములు, R.drawable.image_274, R.raw.audio_of_image_275)
+                                , builArticulationDataItem(R.string.చీమలు, R.drawable.image_275, R.raw.audio_of_image_276)
+                                , builArticulationDataItem(R.string.తమలపాకు, R.drawable.image_276, R.raw.audio_of_image_277)
+                                , builArticulationDataItem(R.string.సిమెంటు, R.drawable.image_277, R.raw.audio_of_image_278)
+                                , builArticulationDataItem(R.string.కమలాపండు, R.drawable.image_278, R.raw.audio_of_image_279))
                         , buildFinalList(
-                                builArticulationDataItem(R.string.బొమ్మ, R.drawable.image_279, R.raw.audio_of_image_279)
-                                , builArticulationDataItem(R.string.పాదము, R.drawable.image_280, R.raw.audio_of_image_280)
-                                , builArticulationDataItem(R.string.కుంకుమ, R.drawable.image_281, R.raw.audio_of_image_281)
-                                , builArticulationDataItem(R.string.కోలాటం, R.drawable.image_282, R.raw.audio_of_image_282)
-                                , builArticulationDataItem(R.string.రథము, R.drawable.image_283, R.raw.audio_of_image_283)
-                                , builArticulationDataItem(R.string.పావురం, R.drawable.image_284, R.raw.audio_of_image_284))));
+                                builArticulationDataItem(R.string.బొమ్మ, R.drawable.image_279, R.raw.audio_of_image_280)
+                                , builArticulationDataItem(R.string.పాదము, R.drawable.image_280, R.raw.audio_of_image_281)
+                                , builArticulationDataItem(R.string.కుంకుమ, R.drawable.image_281, R.raw.audio_of_image_282)
+                                , builArticulationDataItem(R.string.కోలాటం, R.drawable.image_282, R.raw.audio_of_image_283)
+                                , builArticulationDataItem(R.string.రథము, R.drawable.image_283, R.raw.audio_of_image_284)
+                                , builArticulationDataItem(R.string.పావురం, R.drawable.image_284, R.raw.audio_of_image_286))));
 //TODO image 293 for వడియాలు,
         articulationDataArrayList.add(
                 builArticulationData(
                         R.string.య
                         , buildInitialList(
-//                                builArticulationDataItem(R.string.యజ్ఞం, R.drawable.image_285, R.raw.audio_of_image_285)
-                                 builArticulationDataItem(R.string.యాభై, R.drawable.image_286, R.raw.audio_of_image_286)
-                                , builArticulationDataItem(R.string.యముడు, R.drawable.image_287, R.raw.audio_of_image_287)
-                                , builArticulationDataItem(R.string.యాలుకలు, R.drawable.image_288, R.raw.audio_of_image_288)
-                                , builArticulationDataItem(R.string.యుద్ధం, R.drawable.image_289, R.raw.audio_of_image_289))
+                                builArticulationDataItem(R.string.యజ్ఞం, R.drawable.image_285, R.raw.audio_of_image_287)
+                                , builArticulationDataItem(R.string.యాభై, R.drawable.image_286, R.raw.audio_of_image_288)
+                                , builArticulationDataItem(R.string.యముడు, R.drawable.image_287, R.raw.audio_of_image_289)
+                                , builArticulationDataItem(R.string.యాలుకలు, R.drawable.image_288, R.raw.audio_of_image_290)
+                                , builArticulationDataItem(R.string.యుద్ధం, R.drawable.image_289, R.raw.audio_of_image_291))
                         , buildMedialList(
-                                builArticulationDataItem(R.string.దెయ్యం, R.drawable.image_290, R.raw.audio_of_image_290)
-                                , builArticulationDataItem(R.string.బియ్యం, R.drawable.image_291, R.raw.audio_of_image_291)
-                                , builArticulationDataItem(R.string.టపాకాయలు, R.drawable.image_292, R.raw.audio_of_image_292)
-                                , builArticulationDataItem(R.string.వడియాలు, R.drawable.image_293, R.raw.audio_of_image_293))
+                                builArticulationDataItem(R.string.దెయ్యం, R.drawable.image_290, R.raw.audio_of_image_292)
+                                , builArticulationDataItem(R.string.బియ్యం, R.drawable.image_291, R.raw.audio_of_image_293)
+                                , builArticulationDataItem(R.string.టపాకాయలు, R.drawable.image_292, R.raw.audio_of_image_294)
+                                , builArticulationDataItem(R.string.వడియాలు, R.drawable.image_293, R.raw.audio_of_image_295))
                         , buildFinalList(
-                                builArticulationDataItem(R.string.రుపాయి, R.drawable.image_294, R.raw.audio_of_image_294)
-                                , builArticulationDataItem(R.string.బీరకాయ, R.drawable.image_295, R.raw.audio_of_image_295)
-                                , builArticulationDataItem(R.string.మునక్కాయ, R.drawable.image_296, R.raw.audio_of_image_296)
-                                , builArticulationDataItem(R.string.సేమియా, R.drawable.image_297, R.raw.audio_of_image_297))));
+                                builArticulationDataItem(R.string.రుపాయి, R.drawable.image_294, R.raw.audio_of_image_296)
+                                , builArticulationDataItem(R.string.బీరకాయ, R.drawable.image_295, R.raw.audio_of_image_297)
+                                , builArticulationDataItem(R.string.మునక్కాయ, R.drawable.image_296, R.raw.audio_of_image_298)
+                                , builArticulationDataItem(R.string.సేమియా, R.drawable.image_297, R.raw.audio_of_image_299))));
 
         //TODO provide 308 image for కర్ర, 305 for వజ్రాలు, 303 for రైలు, 299 for రంధ్రము
         articulationDataArrayList.add(
                 builArticulationData(
                         R.string.ర
                         , buildInitialList(
-                                builArticulationDataItem(R.string.రాయి, R.drawable.image_298, R.raw.audio_of_image_298)
-                                , builArticulationDataItem(R.string.రంధ్రము, R.drawable.image_299, R.raw.audio_of_image_299)
-                                , builArticulationDataItem(R.string.రెక్కలు, R.drawable.image_300, R.raw.audio_of_image_300)
-                                , builArticulationDataItem(R.string.రాత్రి, R.drawable.image_301, R.raw.audio_of_image_301)
-                                , builArticulationDataItem(R.string.రాణి, R.drawable.image_302, R.raw.audio_of_image_302)
-                                , builArticulationDataItem(R.string.రైలు, R.drawable.image_303, R.raw.audio_of_image_303))
+                                builArticulationDataItem(R.string.రాయి, R.drawable.image_298, R.raw.audio_of_image_300)
+                                , builArticulationDataItem(R.string.రంధ్రము, R.drawable.image_299, R.raw.audio_of_image_301)
+                                , builArticulationDataItem(R.string.రెక్కలు, R.drawable.image_300, R.raw.audio_of_image_302)
+                                , builArticulationDataItem(R.string.రాత్రి, R.drawable.image_301, R.raw.audio_of_image_303)
+                                , builArticulationDataItem(R.string.రాణి, R.drawable.image_302, R.raw.audio_of_image_304)
+                                , builArticulationDataItem(R.string.రైలు, R.drawable.image_303, R.raw.audio_of_image_305))
                         , buildMedialList(
-                                builArticulationDataItem(R.string.బీరువా, R.drawable.image_304, R.raw.audio_of_image_304)
-                                , builArticulationDataItem(R.string.వజ్రాలు, R.drawable.image_305, R.raw.audio_of_image_305)
-                                , builArticulationDataItem(R.string.సిరా, R.drawable.image_306, R.raw.audio_of_image_306)
-                                , builArticulationDataItem(R.string.గరిట, R.drawable.image_307, R.raw.audio_of_image_307))
+                                builArticulationDataItem(R.string.బీరువా, R.drawable.image_304, R.raw.audio_of_image_306)
+                                , builArticulationDataItem(R.string.వజ్రాలు, R.drawable.image_305, R.raw.audio_of_image_307)
+//                                , builArticulationDataItem(R.string.సిరా, R.drawable.image_306, R.raw.audio_of_image_308)
+                                , builArticulationDataItem(R.string.గరిట, R.drawable.image_307, R.raw.audio_of_image_308))
                         , buildFinalList(
-                                builArticulationDataItem(R.string.కర్ర, R.drawable.image_308, R.raw.audio_of_image_308)
-                                , builArticulationDataItem(R.string.కూర, R.drawable.image_309, R.raw.audio_of_image_309)
-                                , builArticulationDataItem(R.string.అలమర, R.drawable.image_310, R.raw.audio_of_image_310)
-                                , builArticulationDataItem(R.string.మర, R.drawable.image_311, R.raw.audio_of_image_311)
-                                , builArticulationDataItem(R.string.కారు_ర, R.drawable.image_312, R.raw.audio_of_image_312)
-                                , builArticulationDataItem(R.string.కంప్యూటర్, R.drawable.image_313, R.raw.audio_of_image_313))));
+                                builArticulationDataItem(R.string.కర్ర, R.drawable.image_308, R.raw.audio_of_image_309)
+                                , builArticulationDataItem(R.string.కూర, R.drawable.image_309, R.raw.audio_of_image_310)
+                                , builArticulationDataItem(R.string.అలమర, R.drawable.image_310, R.raw.audio_of_image_311)
+                                , builArticulationDataItem(R.string.మర, R.drawable.image_311, R.raw.audio_of_image_312)
+                                , builArticulationDataItem(R.string.కారు_ర, R.drawable.image_312, R.raw.audio_of_image_313)
+                                , builArticulationDataItem(R.string.కంప్యూటర్, R.drawable.image_313, R.raw.audio_of_image_314))));
 //TODO provide 316 for లడ్డు,
         articulationDataArrayList.add(
                 builArticulationData(
                         R.string.ల
                         , buildInitialList(
-                                builArticulationDataItem(R.string.లైటు, R.drawable.image_314, R.raw.audio_of_image_314)
-                                , builArticulationDataItem(R.string.లాఠీ, R.drawable.image_315, R.raw.audio_of_image_315)
-                                , builArticulationDataItem(R.string.లాంతరు, R.drawable.image_316, R.raw.audio_of_image_316)
-                                , builArticulationDataItem(R.string.లడ్డు, R.drawable.image_317, R.raw.audio_of_image_317)
-//                                , builArticulationDataItem(R.string.తల_ల, R.drawable.image_318, R.raw.audio_of_image_318)
-                                , builArticulationDataItem(R.string.లత, R.drawable.image_319, R.raw.audio_of_image_319))
+                                builArticulationDataItem(R.string.లైటు, R.drawable.image_314, R.raw.audio_of_image_315)
+                                , builArticulationDataItem(R.string.లాఠీ, R.drawable.image_315, R.raw.audio_of_image_316)
+                                , builArticulationDataItem(R.string.లాంతరు, R.drawable.image_316, R.raw.audio_of_image_317)
+                                , builArticulationDataItem(R.string.లడ్డు, R.drawable.image_317, R.raw.audio_of_image_318)
+//                                , builArticulationDataItem(R.string.తల_ల, R.drawable.image_318, R.raw.audio_of_image_319)
+                                , builArticulationDataItem(R.string.లత, R.drawable.image_319, R.raw.audio_of_image_320))
                         , buildMedialList(
-                                builArticulationDataItem(R.string.గిలక, R.drawable.image_320, R.raw.audio_of_image_320)
-                                , builArticulationDataItem(R.string.అలారం, R.drawable.image_321, R.raw.audio_of_image_321)
-                                , builArticulationDataItem(R.string.అల్లం, R.drawable.image_322, R.raw.audio_of_image_322)
-                                , builArticulationDataItem(R.string.కొలను, R.drawable.image_323, R.raw.audio_of_image_323))
+                                builArticulationDataItem(R.string.గిలక, R.drawable.image_320, R.raw.audio_of_image_321)
+                                , builArticulationDataItem(R.string.అలారం, R.drawable.image_321, R.raw.audio_of_image_322)
+                                , builArticulationDataItem(R.string.అల్లం, R.drawable.image_322, R.raw.audio_of_image_323)
+                                , builArticulationDataItem(R.string.కొలను, R.drawable.image_323, R.raw.audio_of_image_324))
                         , buildFinalList(
-                                builArticulationDataItem(R.string.పాలు, R.drawable.image_324, R.raw.audio_of_image_324)
-                                , builArticulationDataItem(R.string.పిల్లి, R.drawable.image_325, R.raw.audio_of_image_325)
-                                , builArticulationDataItem(R.string.ఈల, R.drawable.image_326, R.raw.audio_of_image_326)
-                                , builArticulationDataItem(R.string.కాలు, R.drawable.image_327, R.raw.audio_of_image_327)
-                                , builArticulationDataItem(R.string.చేతులు, R.drawable.image_328, R.raw.audio_of_image_328)
-                                , builArticulationDataItem(R.string.వేళ్ళు, R.drawable.image_329, R.raw.audio_of_image_329))));
+                                builArticulationDataItem(R.string.పాలు, R.drawable.image_324, R.raw.audio_of_image_325)
+                                , builArticulationDataItem(R.string.పిల్లి, R.drawable.image_325, R.raw.audio_of_image_326)
+                                , builArticulationDataItem(R.string.ఈల, R.drawable.image_326, R.raw.audio_of_image_327)
+                                , builArticulationDataItem(R.string.కాలు, R.drawable.image_327, R.raw.audio_of_image_328)
+                                , builArticulationDataItem(R.string.చేతులు, R.drawable.image_328, R.raw.audio_of_image_329)
+                                , builArticulationDataItem(R.string.వేళ్ళు, R.drawable.image_329, R.raw.audio_of_image_330))));
 
 //TODO provide 338 image for తువాలు, 335 for వీపు, 333 for వరి,
 
@@ -579,52 +579,52 @@ public class ArticulationDataList {
                 builArticulationData(
                         R.string.వ
                         , buildInitialList(
-                                builArticulationDataItem(R.string.వర్షం, R.drawable.image_330, R.raw.audio_of_image_330)
-                                , builArticulationDataItem(R.string.వల, R.drawable.image_331, R.raw.audio_of_image_331)
-                                , builArticulationDataItem(R.string.వాము, R.drawable.image_332, R.raw.audio_of_image_332)
-                                , builArticulationDataItem(R.string.వరి, R.drawable.image_333, R.raw.audio_of_image_333)
-                                , builArticulationDataItem(R.string.వీణ, R.drawable.image_334, R.raw.audio_of_image_334)
-                                , builArticulationDataItem(R.string.వీపు, R.drawable.image_335, R.raw.audio_of_image_335)
-                                , builArticulationDataItem(R.string.వాచీ, R.drawable.image_336, R.raw.audio_of_image_336))
+                                builArticulationDataItem(R.string.వర్షం, R.drawable.image_330, R.raw.audio_of_image_331)
+                                , builArticulationDataItem(R.string.వల, R.drawable.image_331, R.raw.audio_of_image_332)
+                                , builArticulationDataItem(R.string.వాము, R.drawable.image_332, R.raw.audio_of_image_333)
+                                , builArticulationDataItem(R.string.వరి, R.drawable.image_333, R.raw.audio_of_image_334)
+                                , builArticulationDataItem(R.string.వీణ, R.drawable.image_334, R.raw.audio_of_image_335)
+                                , builArticulationDataItem(R.string.వీపు, R.drawable.image_335, R.raw.audio_of_image_336)
+                                , builArticulationDataItem(R.string.వాచీ, R.drawable.image_336, R.raw.audio_of_image_337))
                         , buildMedialList(
-                                builArticulationDataItem(R.string.శివుడు, R.drawable.image_337, R.raw.audio_of_image_337)
-                                , builArticulationDataItem(R.string.తువాలు, R.drawable.image_338, R.raw.audio_of_image_338)
-                                , builArticulationDataItem(R.string.ఆవాలు, R.drawable.image_339, R.raw.audio_of_image_339))
+                                builArticulationDataItem(R.string.శివుడు, R.drawable.image_337, R.raw.audio_of_image_338)
+                                , builArticulationDataItem(R.string.తువాలు, R.drawable.image_338, R.raw.audio_of_image_339)
+                                , builArticulationDataItem(R.string.ఆవాలు, R.drawable.image_339, R.raw.audio_of_image_340))
                         , buildFinalList(
-                                builArticulationDataItem(R.string.శిలువ, R.drawable.image_340, R.raw.audio_of_image_340)
-                                , builArticulationDataItem(R.string.తాళంచెవి, R.drawable.image_341, R.raw.audio_of_image_341)
-                                , builArticulationDataItem(R.string.పొయ్యి, R.drawable.image_342, R.raw.audio_of_image_342))));
+                                builArticulationDataItem(R.string.శిలువ, R.drawable.image_340, R.raw.audio_of_image_341)
+                                , builArticulationDataItem(R.string.తాళంచెవి, R.drawable.image_341, R.raw.audio_of_image_342)
+                                , builArticulationDataItem(R.string.పొయ్యి, R.drawable.image_342, R.raw.audio_of_image_343))));
 //TODO provide 348 image for శిఖరం, 345 for శనగపిండి
         articulationDataArrayList.add(
                 builArticulationData(
                         R.string.శ
                         , buildInitialList(
-                                builArticulationDataItem(R.string.శంఖం_శ, R.drawable.image_343, R.raw.audio_of_image_343)
-                                , builArticulationDataItem(R.string.శనగలు, R.drawable.image_344, R.raw.audio_of_image_344)
-                                , builArticulationDataItem(R.string.శనగపిండి, R.drawable.image_345, R.raw.audio_of_image_345)
-                                , builArticulationDataItem(R.string.శాలీడు, R.drawable.image_346, R.raw.audio_of_image_346)
-                                , builArticulationDataItem(R.string.శాలువ, R.drawable.image_347, R.raw.audio_of_image_347)
-                                , builArticulationDataItem(R.string.శిఖరం, R.drawable.image_348, R.raw.audio_of_image_348))
+                                builArticulationDataItem(R.string.శంఖం_శ, R.drawable.image_343, R.raw.audio_of_image_344)
+                                , builArticulationDataItem(R.string.శనగలు, R.drawable.image_344, R.raw.audio_of_image_345)
+                                , builArticulationDataItem(R.string.శనగపిండి, R.drawable.image_345, R.raw.audio_of_image_346)
+                                , builArticulationDataItem(R.string.శాలీడు, R.drawable.image_346, R.raw.audio_of_image_347)
+                                , builArticulationDataItem(R.string.శాలువ, R.drawable.image_347, R.raw.audio_of_image_348)
+                                , builArticulationDataItem(R.string.శిఖరం, R.drawable.image_348, R.raw.audio_of_image_349))
                         , buildMedialList(
-                                builArticulationDataItem(R.string.రాశులు, R.drawable.image_349, R.raw.audio_of_image_349))
+                                builArticulationDataItem(R.string.రాశులు, R.drawable.image_349, R.raw.audio_of_image_350))
                         , buildFinalList()));
 
         articulationDataArrayList.add(
                 builArticulationData(
                         R.string.ష
                         , buildInitialList(
-                                builArticulationDataItem(R.string.షర్టు, R.drawable.image_350, R.raw.audio_of_image_350)
-                                , builArticulationDataItem(R.string.షాంపూ, R.drawable.image_351, R.raw.audio_of_image_351)
-                                , builArticulationDataItem(R.string.షటిల్, R.drawable.image_352, R.raw.audio_of_image_352)
-                                , builArticulationDataItem(R.string.షూ, R.drawable.image_353, R.raw.audio_of_image_353)
-                                , builArticulationDataItem(R.string.షవర్, R.drawable.image_354, R.raw.audio_of_image_354)
-                                , builArticulationDataItem(R.string.షేవ్, R.drawable.image_355, R.raw.audio_of_image_355))
+                                builArticulationDataItem(R.string.షర్టు, R.drawable.image_350, R.raw.audio_of_image_351)
+                                , builArticulationDataItem(R.string.షాంపూ, R.drawable.image_351, R.raw.audio_of_image_352)
+                                , builArticulationDataItem(R.string.షటిల్, R.drawable.image_352, R.raw.audio_of_image_353)
+                                , builArticulationDataItem(R.string.షూ, R.drawable.image_353, R.raw.audio_of_image_354)
+                                , builArticulationDataItem(R.string.షవర్, R.drawable.image_354, R.raw.audio_of_image_355)
+                                , builArticulationDataItem(R.string.షేవ్, R.drawable.image_355, R.raw.audio_of_image_356))
                         , buildMedialList(
-                                builArticulationDataItem(R.string.వేషం, R.drawable.image_356, R.raw.audio_of_image_356)
-                                , builArticulationDataItem(R.string.కాషాయం, R.drawable.image_357, R.raw.audio_of_image_357)
-                                , builArticulationDataItem(R.string.విషం, R.drawable.image_358, R.raw.audio_of_image_358))
+                                builArticulationDataItem(R.string.వేషం, R.drawable.image_356, R.raw.audio_of_image_357)
+                                , builArticulationDataItem(R.string.కాషాయం, R.drawable.image_357, R.raw.audio_of_image_358)
+                                , builArticulationDataItem(R.string.విషం, R.drawable.image_358, R.raw.audio_of_image_359))
                         , buildFinalList(
-                                builArticulationDataItem(R.string.గణేష్, R.drawable.image_359, R.raw.audio_of_image_359))));
+                                builArticulationDataItem(R.string.గణేష్, R.drawable.image_359, R.raw.audio_of_image_360))));
 
         //TODO provide image 371 for సరస్సు, 364 for సూప్, 361 for సేతు, 360 for సంత
 
@@ -632,37 +632,37 @@ public class ArticulationDataList {
                 builArticulationData(
                         R.string.స
                         , buildInitialList(
-                                builArticulationDataItem(R.string.సంత, R.drawable.image_360, R.raw.audio_of_image_360)
-                                , builArticulationDataItem(R.string.సేతు, R.drawable.image_361, R.raw.audio_of_image_361)
-                                , builArticulationDataItem(R.string.సరుకు, R.drawable.image_362, R.raw.audio_of_image_362)
-                                , builArticulationDataItem(R.string.సూది, R.drawable.image_363, R.raw.audio_of_image_363)
-                                , builArticulationDataItem(R.string.సూప్, R.drawable.image_364, R.raw.audio_of_image_364)
-                                , builArticulationDataItem(R.string.సూట్, R.drawable.image_365, R.raw.audio_of_image_365)
-                                , builArticulationDataItem(R.string.సముద్రం, R.drawable.image_366, R.raw.audio_of_image_366)
-                                , builArticulationDataItem(R.string.సూర్యుడు, R.drawable.image_367, R.raw.audio_of_image_367)
-                                , builArticulationDataItem(R.string.సీతాఫలం, R.drawable.image_368, R.raw.audio_of_image_368))
+                                builArticulationDataItem(R.string.సంత, R.drawable.image_360, R.raw.audio_of_image_361)
+                                , builArticulationDataItem(R.string.సేతు, R.drawable.image_361, R.raw.audio_of_image_362)
+                                , builArticulationDataItem(R.string.సరుకు, R.drawable.image_362, R.raw.audio_of_image_363)
+                                , builArticulationDataItem(R.string.సూది, R.drawable.image_363, R.raw.audio_of_image_364)
+                                , builArticulationDataItem(R.string.సూప్, R.drawable.image_364, R.raw.audio_of_image_365)
+                                , builArticulationDataItem(R.string.సూట్, R.drawable.image_365, R.raw.audio_of_image_366)
+                                , builArticulationDataItem(R.string.సముద్రం, R.drawable.image_366, R.raw.audio_of_image_367)
+                                , builArticulationDataItem(R.string.సూర్యుడు, R.drawable.image_367, R.raw.audio_of_image_368)
+                                , builArticulationDataItem(R.string.సీతాఫలం, R.drawable.image_368, R.raw.audio_of_image_369))
                         , buildMedialList(
-                                builArticulationDataItem(R.string.పసుపు, R.drawable.image_369, R.raw.audio_of_image_369)
-                                , builArticulationDataItem(R.string.పనసపండు, R.drawable.image_370, R.raw.audio_of_image_370))
+                                builArticulationDataItem(R.string.పసుపు, R.drawable.image_369, R.raw.audio_of_image_370)
+                                , builArticulationDataItem(R.string.పనసపండు, R.drawable.image_370, R.raw.audio_of_image_371))
                         , buildFinalList(
-                                builArticulationDataItem(R.string.సరస్సు, R.drawable.image_371, R.raw.audio_of_image_371)
-                                , builArticulationDataItem(R.string.గ్లాసు, R.drawable.image_372, R.raw.audio_of_image_372)
-                                , builArticulationDataItem(R.string.నర్సు, R.drawable.image_373, R.raw.audio_of_image_373)
-                                , builArticulationDataItem(R.string.సాస్, R.drawable.image_374, R.raw.audio_of_image_374)
-                                , builArticulationDataItem(R.string.పరుసు, R.drawable.image_375, R.raw.audio_of_image_375))));
+                                builArticulationDataItem(R.string.సరస్సు, R.drawable.image_371, R.raw.audio_of_image_372)
+                                , builArticulationDataItem(R.string.గ్లాసు, R.drawable.image_372, R.raw.audio_of_image_373)
+                                , builArticulationDataItem(R.string.నర్సు, R.drawable.image_373, R.raw.audio_of_image_374)
+                                , builArticulationDataItem(R.string.సాస్, R.drawable.image_374, R.raw.audio_of_image_375)
+                                , builArticulationDataItem(R.string.పరుసు, R.drawable.image_375, R.raw.audio_of_image_376))));
 
         articulationDataArrayList.add(
                 builArticulationData(
                         R.string.హ
                         , buildInitialList(
-                                builArticulationDataItem(R.string.హారతి, R.drawable.image_376, R.raw.audio_of_image_376)
-                                , builArticulationDataItem(R.string.హరం, R.drawable.image_377, R.raw.audio_of_image_377)
-                                , builArticulationDataItem(R.string.హంస, R.drawable.image_378, R.raw.audio_of_image_378)
-                                , builArticulationDataItem(R.string.హల్వ, R.drawable.image_379, R.raw.audio_of_image_379)
-                                , builArticulationDataItem(R.string.హంగర్, R.drawable.image_380, R.raw.audio_of_image_380)
-                                , builArticulationDataItem(R.string.హెలికాప్టర్, R.drawable.image_381, R.raw.audio_of_image_381))
+                                builArticulationDataItem(R.string.హారతి, R.drawable.image_376, R.raw.audio_of_image_377)
+                                , builArticulationDataItem(R.string.హరం, R.drawable.image_377, R.raw.audio_of_image_378)
+                                , builArticulationDataItem(R.string.హంస, R.drawable.image_378, R.raw.audio_of_image_379)
+                                , builArticulationDataItem(R.string.హల్వ, R.drawable.image_379, R.raw.audio_of_image_380)
+                                , builArticulationDataItem(R.string.హంగర్, R.drawable.image_380, R.raw.audio_of_image_381)
+                                , builArticulationDataItem(R.string.హెలికాప్టర్, R.drawable.image_381, R.raw.audio_of_image_382))
                         , buildMedialList(
-                                builArticulationDataItem(R.string.సింహం, R.drawable.image_382, R.raw.audio_of_image_382))
+                                builArticulationDataItem(R.string.సింహం, R.drawable.image_382, R.raw.audio_of_image_383))
                         , buildFinalList()));
 
         articulationDataArrayList.add(
@@ -670,22 +670,22 @@ public class ArticulationDataList {
                         R.string.ళ
                         , buildInitialList()
                         , buildMedialList(
-                                builArticulationDataItem(R.string.తాళం, R.drawable.image_383, R.raw.audio_of_image_383)
-                                , builArticulationDataItem(R.string.పెళ్ళి, R.drawable.image_384, R.raw.audio_of_image_384)
-                                , builArticulationDataItem(R.string.తాళి, R.drawable.image_385, R.raw.audio_of_image_385))
+                                builArticulationDataItem(R.string.తాళం, R.drawable.image_383, R.raw.audio_of_image_384)
+                                , builArticulationDataItem(R.string.పెళ్ళి, R.drawable.image_384, R.raw.audio_of_image_385)
+                                , builArticulationDataItem(R.string.తాళి, R.drawable.image_385, R.raw.audio_of_image_386))
                         , buildFinalList()));
 
         articulationDataArrayList.add(
                 builArticulationData(
                         R.string.క్ష
                         , buildInitialList(
-                                builArticulationDataItem(R.string.క్షవరంక్ష, R.drawable.image_386, R.raw.audio_of_image_386)
-                                , builArticulationDataItem(R.string.క్షత్రియుడు, R.drawable.image_387, R.raw.audio_of_image_387))
+                                builArticulationDataItem(R.string.క్షవరంక్ష, R.drawable.image_386, R.raw.audio_of_image_387)
+                                , builArticulationDataItem(R.string.క్షత్రియుడు, R.drawable.image_387, R.raw.audio_of_image_388))
                         , buildMedialList()
                         , buildFinalList(
-                                builArticulationDataItem(R.string.శిక్ష, R.drawable.image_388, R.raw.audio_of_image_388)
-                                , builArticulationDataItem(R.string.రిక్షా, R.drawable.image_389, R.raw.audio_of_image_389)
-                                , builArticulationDataItem(R.string.బిక్ష, R.drawable.image_390, R.raw.audio_of_image_390))));
+                                builArticulationDataItem(R.string.శిక్ష, R.drawable.image_388, R.raw.audio_of_image_389)
+                                , builArticulationDataItem(R.string.రిక్షా, R.drawable.image_389, R.raw.audio_of_image_390)
+                                , builArticulationDataItem(R.string.బిక్ష, R.drawable.image_390, R.raw.audio_of_image_391))));
     }
 
     private ArrayList<ArticulationDataItem> buildArticulationDataItemList(ArticulationDataItem... articulationDataItems) {

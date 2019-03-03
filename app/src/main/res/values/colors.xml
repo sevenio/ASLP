@@ -4,7 +4,7 @@
     <color name="colorPrimaryDark">#e6e7ec</color>
     <color name="colorAccent">#080808</color>
     <color name="colorSelected">#ffffbb33</color>
-    <color name="colorDeSelected">#ffe6e6e6</color>
+    <color name="colorDeSelected">#E6E6E6</color>
 
 
 </resources>

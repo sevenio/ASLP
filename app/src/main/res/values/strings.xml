@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ASLP App</string>
+    <string name="app_name">Speech therapy-telugu</string>
 
     //title
 
@@ -830,7 +830,7 @@
     //final
     <string name="శిక్ష">శిక్ష</string>
     <string name="రిక్షా">రిక్షా</string>
-    <string name="బిక్ష">క్ష</string>
+    <string name="బిక్ష">బిక్ష</string>
 
 
     <string name="medial">Medial</string>

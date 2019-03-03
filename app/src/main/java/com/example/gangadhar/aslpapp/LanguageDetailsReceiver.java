@@ -41,8 +41,6 @@ public class LanguageDetailsReceiver extends BroadcastReceiver {
                     editor.putBoolean("isLanguageSupported", true);
                     editor.apply();
                 }
-
-
             }
 
         }

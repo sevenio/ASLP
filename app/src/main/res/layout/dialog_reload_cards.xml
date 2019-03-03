@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/tilte"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="center"
+        android:text="Set Completed"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/total_cards"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
+
+    <TextView
+        android:id="@+id/total_cards"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Total Cards"
+        android:textColor="@android:color/black"
+
+        app:layout_constraintBottom_toTopOf="@+id/correct_answer"
+        app:layout_constraintEnd_toStartOf="@+id/total_cards_count"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tilte" />
+
+    <TextView
+        android:id="@+id/total_cards_count"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/total_cards"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/total_cards"
+        app:layout_constraintTop_toTopOf="@+id/total_cards"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/correct_answer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Correct Answer"
+        android:textColor="@android:color/black"
+
+        app:layout_constraintBottom_toTopOf="@+id/wrong_answer"
+        app:layout_constraintEnd_toStartOf="@+id/correct_answer_count"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/total_cards" />
+
+    <TextView
+        android:id="@+id/correct_answer_count"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+
+        app:layout_constraintBottom_toBottomOf="@+id/correct_answer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/correct_answer"
+        app:layout_constraintTop_toTopOf="@+id/correct_answer"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/wrong_answer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Wrong Answer"
+        android:textColor="@android:color/black"
+
+        app:layout_constraintBottom_toTopOf="@+id/skipped_answer"
+        app:layout_constraintEnd_toStartOf="@+id/wrong_answer_count"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/correct_answer" />
+
+    <TextView
+        android:id="@+id/wrong_answer_count"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/wrong_answer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wrong_answer"
+        app:layout_constraintTop_toTopOf="@+id/wrong_answer"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/skipped_answer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Skipped Answer"
+        android:textColor="@android:color/black"
+
+        app:layout_constraintBottom_toTopOf="@+id/reload"
+        app:layout_constraintEnd_toStartOf="@+id/skipped_answer_count"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wrong_answer" />
+
+    <TextView
+        android:id="@+id/skipped_answer_count"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/skipped_answer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/skipped_answer"
+        app:layout_constraintTop_toTopOf="@+id/skipped_answer"
+        tools:text="TextView" />
+
+    <Button
+        android:id="@+id/reload"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/colorDeSelected"
+        android:gravity="center"
+        android:text="Reload Cards"
+        android:textColor="@android:color/black"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cancel"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/skipped_answer" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/colorDeSelected"
+        android:gravity="center"
+        android:text="Cancel"
+
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/reload"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/reload"
+        app:layout_constraintTop_toTopOf="@+id/reload" />
+</android.support.constraint.ConstraintLayout>
