@@ -1,4 +1,4 @@
-package com.example.gangadhar.aslpapp;
+package com.therapy.speech.telugu;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

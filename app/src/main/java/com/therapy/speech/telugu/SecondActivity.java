@@ -1,4 +1,4 @@
-package com.example.gangadhar.aslpapp;
+package com.therapy.speech.telugu;
 
 import android.Manifest;
 import android.content.Context;
@@ -122,6 +122,7 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
     private void onNext() {
         if (cardNumber == articulationDataItems.size() - 1) {
             Toast.makeText(SecondActivity.this, "You reached the end of the cards ", Toast.LENGTH_LONG).show();
+            showReloadCardsDialog();
         } else {
             cardNumber = cardNumber + 1;
             bindView(articulationDataItems.get(cardNumber));
@@ -158,14 +159,14 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
                 SharedPreferences prefs = getSharedPreferences("my_prefs", MODE_PRIVATE);
                 if (prefs.getBoolean("isLanguageSupported", false)) {
 
-                    if (checkWriteExternalPermission()) {
+//                    if (checkWriteExternalPermission()) {
                         startSpeechRecognizer();
-                    } else {
-                        ActivityCompat.requestPermissions
-                                (SecondActivity.this,
-                                        new String[]{Manifest.permission.RECORD_AUDIO},
-                                        REQUEST_RECORD_PERMISSION);
-                    }
+//                    } else {
+//                        ActivityCompat.requestPermissions
+//                                (SecondActivity.this,
+//                                        new String[]{Manifest.permission.RECORD_AUDIO},
+//                                        REQUEST_RECORD_PERMISSION);
+//                    }
                 } else {
                     Toast.makeText(SecondActivity.this, "Telugu language not supported on your device", Toast.LENGTH_SHORT).show();
 

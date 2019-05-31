@@ -1,4 +1,4 @@
-package com.example.gangadhar.aslpapp;
+package com.therapy.speech.telugu;
 
 import java.util.ArrayList;
 
